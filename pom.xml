@@ -10,12 +10,14 @@
 
     <groupId>fr.jcgay.maven.extension</groupId>
     <artifactId>unique-revision-maven-filtering</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-OGL-FORK</version>
 
+    <!-- Maintaining a fork only while I wait for https://github.com/jcgay/unique-revision-maven-filtering/pull/14 to
+         be merged -->
     <scm>
-        <url>https://github.com/jcgay/unique-revision-maven-filtering</url>
-        <connection>scm:git:git://github.com/jcgay/unique-revision-maven-filtering.git</connection>
-        <developerConnection>scm:git:git@github.com:jcgay/unique-revision-maven-filtering.git</developerConnection>
+        <url>https://github.com/oliverlockwood/unique-revision-maven-filtering</url>
+        <connection>scm:git:git://github.com/oliverlockwood/unique-revision-maven-filtering.git</connection>
+        <developerConnection>scm:git:git@github.com:oliverlockwood/unique-revision-maven-filtering.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -68,7 +70,7 @@
                 <configuration>
                     <toolchains>
                         <jdk>
-                            <version>1.6</version>
+                            <version>1.8</version>
                         </jdk>
                     </toolchains>
                 </configuration>
